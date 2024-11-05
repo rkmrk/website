@@ -1,0 +1,36 @@
+body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.video-container {
+   margin: 20px;
+}
+
+.chat-container {
+   border: 1px solid #ccc;
+   padding: 10px;
+   width: 60%;
+   max-width: 400px;
+   margin: 20px 0;
+}
+
+#chatBox {
+   height: 200px;
+   overflow-y: scroll;
+   border: 1px solid #ddd;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+#chatInput {
+   width: 80%;
+   padding: 5px;
+}
+
+button {
+   padding: 5px 10px;
+   cursor: pointer;
+}
